@@ -1,5 +1,3 @@
-# Trabajo-Final-Integrador-Python
-
 # Trabajo Final Integrador - Laboratorio de Python
 
 ## Sistema elegido
