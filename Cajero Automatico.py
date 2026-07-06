@@ -26,9 +26,9 @@ total_transferido = 0.0
 
 
 def mostrar_bienvenida():
-    print("====================================")
-    print("        CAJERO AUTOMATICO")
-    print("====================================")
+    print("==================================== \n")
+    print("        CAJERO AUTOMATICO \n")
+    print("==================================== \n")
 
 
 def leer_opcion():
@@ -102,7 +102,7 @@ def extraer_dinero(usuario):
     global cantidad_extracciones
     global total_extraido
 
-    monto = leer_monto("Ingrese monto a extraer: ")
+    monto = leer_monto("\nIngrese monto a extraer: ")
     saldo = usuarios[usuario]["saldo"]
 
     if monto > limite_extraccion:
@@ -123,7 +123,7 @@ def depositar_dinero(usuario):
     global cantidad_depositos
     global total_depositado
 
-    monto = leer_monto("Ingrese monto a depositar: ")
+    monto = leer_monto("\nIngrese monto a depositar: ")
 
     usuarios[usuario]["saldo"] += monto
     cantidad_depositos += 1
@@ -138,7 +138,7 @@ def transferir_dinero(usuario):
     global cantidad_transferencias
     global total_transferido
 
-    cuenta_destino = input("Ingrese usuario destino: ")
+    cuenta_destino = input("\nIngrese usuario destino: ")
 
     if cuenta_destino not in usuarios:
         print("Error: la cuenta destino no existe.")
@@ -212,10 +212,10 @@ def ejecutar_cajero(usuario):
         elif opcion == 6:
             ver_estadisticas()
         elif opcion == 7:
-            print("Gracias por utilizar el cajero automatico.")
+            print("\nGracias por utilizar el cajero automatico.")
             salir = True
         else:
-            print("Opcion incorrecta. Intente nuevamente.")
+            print("\nOpcion incorrecta. Intente nuevamente.")
 
 
 def main():
@@ -224,6 +224,5 @@ def main():
 
     if usuario is not None:
         ejecutar_cajero(usuario)
-
 
 main()
