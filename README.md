@@ -6,9 +6,11 @@ Simulador de cajero automatico.
 
 ## Integrantes
 
-- Nombre y apellido 1
-- Nombre y apellido 2
-- Nombre y apellido 3
+- Thiago Fernandez
+- Luciano Emmanuel Gatti Flekenstein
+- Guadalupe Maria Itati Hofstetter
+- Yeny Elisa Velazquez
+- Luciano Miqueas Gaspar Zamparo
 
 ## Comision
 
