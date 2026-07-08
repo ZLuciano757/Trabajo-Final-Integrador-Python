@@ -1,6 +1,6 @@
 # Trabajo Final Integrador - Laboratorio de Python
 
-## Sistema elegido
+## Sistema asignado
 
 Simulador de cajero automatico.
 
@@ -14,7 +14,7 @@ Simulador de cajero automatico.
 
 ## Comision
 
-Completar con la comision correspondiente.
+D Turno Noche- Grupo D19
 
 ## Descripcion general del sistema
 
